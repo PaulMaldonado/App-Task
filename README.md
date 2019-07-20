@@ -4,4 +4,4 @@
 
 ### Screenshot del proyecto
 
-![TaskApp](../src/screenshot/task.jpg "TaskApp")
+![TaskApp](../src/screenshot/task.png "TaskApp")
