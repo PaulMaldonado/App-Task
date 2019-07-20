@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../src/css/bootstrap.min.css">
+    <title>Task App</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a href="#" class="navbar-brand">Task App</a>
+    </nav>
+
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <h4 class="text-center mt-3">Agrega una Tarea</h4>
+
+                    <div class="card-body">
+                        <form id="form-task">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" placeholder="Nombre de la tarea">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="description" placeholder="Descripción de la tarea">
+                            </div>
+                            <div class="form-group">
+                                 <input type="date" class="form-control" id="date" placeholder="Fecha de cración">
+                            </div>
+
+                            <button class="btn btn-primary btn-block btn-lg">Guardar Tarea</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <div id="task-list"></div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="../src/js/App.js"></script>
+</body>
+</html>
